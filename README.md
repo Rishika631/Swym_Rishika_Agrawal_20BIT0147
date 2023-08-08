@@ -12,12 +12,13 @@ Halt Statistics: Provides statistics on maximum, minimum, and average halt times
 Trains Between Stations: Determines the number of trains passing between two specified stations in one direction.
 
 # Requirements
-Python 3.x
-Flask
-MongoDB
-pandas
-Installation
-# How to run
+-Python 3.x
+-Flask
+-MongoDB
+-pandas
+
+# Installation
+ 
 Clone this repository to your local machine.
  ```ruby
 git clone https://github.com/yourusername/railway-timetable-app.git
