@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trains Between Stations</title>
+</head>
+<body>
+
+<h2>Trains Between Stations</h2>
+
+<p>Number of Trains: {{ num_trains }}</p>
+
+{% if trains %}
+<ul>
+    {% for train in trains %}
+    <li>
+        <strong>Train Number:</strong> {{ train.train_number }}<br>
+        <!-- <strong>Stations:</strong> {{ train.stations|join(', ') }} -->
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No trains found between the specified stations.</p>
+{% endif %}
+
+</body>
+</html>

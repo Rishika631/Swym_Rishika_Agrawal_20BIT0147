@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trains Arriving at Midnight</title>
+</head>
+<body>
+
+<h2>Trains Arriving at Midnight</h2>
+
+<p>Number of Trains: {{ num_trains }}</p>
+
+{% if trains %}
+<ul>
+    {% for train in trains %}
+    <li>
+        <strong>Train Number:</strong> {{ train.train_number }}<br>
+        <strong>Train Name:</strong> {{ train.train_name }}
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No trains arriving at midnight.</p>
+{% endif %}
+
+</body>
+</html>
