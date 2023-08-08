@@ -35,7 +35,9 @@ python app.py
 
 # Usage/Features
 Visit the app homepage to explore the available queries.
+
 Perform the desired queries by clicking on the respective links.
+
 View the query results and insights presented in a user-friendly format.
 
 Question asked in the problem statement pdf:
