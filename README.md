@@ -28,13 +28,8 @@ Install the required packages using pip.
  ```ruby
 pip install pymongo flask pandas
 '''
-
-Populate MongoDB with data.
-
-Ensure MongoDB is running.
-
+Populate MongoDB with data and Ensure MongoDB is running.
 Update the MongoDB connection string in populate_mongo.py with your credentials.
-
 Run the script to load the data.
 
  ```ruby
