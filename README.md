@@ -19,30 +19,21 @@ Trains Between Stations: Determines the number of trains passing between two spe
 
 # Installation
  
-Clone this repository to your local machine.
+1.Clone this repository to your local machine.
+2.Install the required packages using pip.
+3.Populate MongoDB with data and Ensure MongoDB is running.
+4.Update the MongoDB connection string in populate_mongo.py with your credentials.
+5.Run the script to load the data.
+6.Run the Flask app.
+7.Access the app in your browser by running index.html file in swym frontend folder
  ```ruby
 git clone https://github.com/yourusername/railway-timetable-app.git
-```
-Install the required packages using pip.
-
- ```ruby
 pip install pymongo flask pandas
-'''
-Populate MongoDB with data and Ensure MongoDB is running.
-Update the MongoDB connection string in populate_mongo.py with your credentials.
-Run the script to load the data.
-
- ```ruby
 python populate_mongo.py
-'''
-Run the Flask app.
-
-```ruby
 python app.py
-'''
-Access the app in your browser by running index.html file in swym frontend folder
+```
 
-Usage
+# Usage/Features
 Visit the app homepage to explore the available queries.
 Perform the desired queries by clicking on the respective links.
 View the query results and insights presented in a user-friendly format.
