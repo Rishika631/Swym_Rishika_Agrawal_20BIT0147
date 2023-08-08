@@ -20,7 +20,7 @@ Installation
 # How to run
 Clone this repository to your local machine.
 
-'git clone https://github.com/yourusername/railway-timetable-app.git'
+'''git clone https://github.com/yourusername/railway-timetable-app.git'''
 
 Install the required packages using pip.
 
