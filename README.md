@@ -20,11 +20,15 @@ Installation
 # How to run
 Clone this repository to your local machine.
 
-'''git clone https://github.com/yourusername/railway-timetable-app.git'''
+'''
+git clone https://github.com/yourusername/railway-timetable-app.git
+'''
 
 Install the required packages using pip.
 
-'pip install pymongo flask pandas'
+'''
+pip install pymongo flask pandas
+'''
 
 Populate MongoDB with data.
 
@@ -34,10 +38,14 @@ Update the MongoDB connection string in populate_mongo.py with your credentials.
 
 Run the script to load the data.
 
-'python populate_mongo.py'
+'''
+python populate_mongo.py
+'''
 Run the Flask app.
 
-'python app.py'
+'''
+python app.py
+'''
 Access the app in your browser by running index.html file in swym frontend folder
 
 Usage
